@@ -20,7 +20,7 @@ packet capturing in wireshark while applying filters
 - **Packet Type:** Query  
 - **Domain:** example.com  
 - **Query Type:** A (IPv4 address)  
-![DNS Packet Screenshot](images/dns.png)
+
 
 
 
@@ -28,7 +28,6 @@ packet capturing in wireshark while applying filters
 - **Destination IP:** 93.184.216.34  
 - **Port:** 443  
 - **Details:** TLS Handshake initiated  
-![HTTPS Packet Screenshot](images/https.png)
 
 
 
@@ -37,7 +36,6 @@ packet capturing in wireshark while applying filters
 - **Host:** example.com  
 - **Resource:** /index.html  
 - **Response Code:** 200 OK  
-![HTTP Packet Screenshot](images/http.png)
 
 
 
@@ -45,15 +43,14 @@ packet capturing in wireshark while applying filters
 - **Type:** Echo Request  
 - **Source:** 192.168.1.5  
 - **Destination:** 8.8.8.8  
-![ICMP Request Screenshot](images/icmp_request.png)
 
 
 
 ### 5. **Protocol: ICMP (Echo Reply)**
 - **Type:** Echo Reply  
 - **Source:** 8.8.8.8  
-- **Destination:** 192.168.1.5  
-![ICMP Reply Screenshot](images/icmp_reply.png)
+- **Destination:** 192.168.1.5
+  
 
 
 
